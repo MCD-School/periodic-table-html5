@@ -1,0 +1,26 @@
+.td-norm{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.caja-id{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    font-size: 12p;
+    
+}
+
+
+ 
+.td-norm:hover .caja-id {
+    position:absolute;
+    height: 130px;
+    width: 130px;
+    margin-top: -70px;
+    margin-left: -10px;
+    border: 2px;
+    transition: 0.5s;
+    z-index: 1;
+}

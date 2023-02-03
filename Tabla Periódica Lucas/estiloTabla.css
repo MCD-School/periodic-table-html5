@@ -1,0 +1,61 @@
+    
+  
+  
+  table {
+      font-family: arial, sans-serif;
+      border-collapse:separate;
+     color: rgb(255, 255, 255);
+
+     width: 80%;
+      margin-top: 50px;
+      margin-left: 250px;
+    }
+    
+     .td-norm:hover, .td-norm:active {background-color: cadetblue; position: absolute; height: 30px; width: 30px; margin-top: -70px; margin-left: -10px; border: 2px; z-index: 2;}
+    
+    
+    .td-norm{ 
+      border: 1px solid #e6e6e6;
+     background-color: aquamarine;
+      text-align: center;
+      padding: 46px;
+    z-index: -1;
+    }
+  
+    
+  
+  
+    h1{
+      text-align: center;
+   font-family: 	sans-serif;
+  color: rgb(31, 31, 31);
+  margin-top: 80px;
+  z-index: 3;  
+}
+  
+  div{
+   
+  position: absolute;
+    font-family: 	sans-serif;
+  color: rgb(255, 255, 255);
+
+  }
+
+  
+  
+  
+  p{
+  font-size: 18px;
+  color: white;
+  }
+  
+  .val{
+color: #e6e6e6;
+z-index: 3;
+
+  }
+  
+  
+  h1:hover, .h1:active {color: rgb(160, 146, 95);     text-align: center;  font-family: 	sans-serif;   margin-top: 80px; z-index: 3; font-family: Arial, Helvetica, sans-serif;  }
+
+

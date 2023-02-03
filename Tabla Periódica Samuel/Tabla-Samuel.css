@@ -1,0 +1,127 @@
+.caja-id {
+  color: blue ;
+  background-color: aquamarine;
+  height: 100px;
+  width: 100px;
+}         
+
+.td-norm {
+  border: 1px solid rgb(1, 1, 80);
+  height: 100px;
+  width: 100px; 
+}
+
+.td-norm:hover .caja-id {
+  position: absolute;
+  height: 130px;
+  width: 130px;
+  margin-top: -70px;
+  margin-left: -10px;
+  border: 2px solid rgb(1, 1, 80); 
+  transition: 0.5s;
+  z-index: 1;
+  }
+
+.caja-top {
+  height: 40%;
+  width: 100%;
+}
+
+.caja-bottom {
+  height: 60%;
+  width: 100%;
+}
+
+/* MASA ATOMICA */
+.caja-top-left-top {
+  height: 60%;
+  width: 100%;
+  float: left;
+  font-size: 7px;
+  font-weight: bold;
+  text-align: left;
+  }
+
+.caja-id:hover .caja-top-left-top {
+  font-size: larger;
+  font-weight: bolder;
+  transition: 0.5s;
+}
+
+/*ELECTRONEGATIVIDAD*/
+.caja-top-left-bottom-left {
+  height: 40%;
+  width: 35%;
+  float: left;
+  font-size: 5px;
+  text-align: left
+}
+
+.caja-id:hover .caja-top-left-bottom-left {
+  font-size: medium;
+  font-weight: lighter;
+  transition: 0.5s;
+}
+
+/*VALENCIA*/
+.caja-top-left-bottom-right {
+  height: 40%;
+  width: 35%;
+  float: left;
+  font-size: 5px;
+  text-align: left;
+}
+
+.caja-id:hover .caja-top-left-bottom-right {
+  font-size: medium;
+  font-weight: lighter;
+  transition: 0.5s;
+}
+
+/* NUMERO ATOMICO */
+.caja-top-right {
+  height: 100%;
+  width: 30%;
+  float: right;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.caja-top-right p {
+  margin-right: 4px;
+}
+
+.caja-id:hover .caja-top-right {
+  font-size: x-large;
+  font-weight: bolder;
+  transition: 0.5s;
+}
+
+/*SIMBOLO*/
+.caja-bottom-left-top {
+  height:60%;
+  width: 100%;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.caja-id:hover .caja-bottom-left-top {
+  font-size: xx-large;
+  font-weight: bolder;
+  transition: 0.5s;
+}
+
+/*NOMBRE*/
+.caja-bottom-left-bottom{
+  height: 40%;
+  width: 100%;
+  font-size: medium;
+}
+
+.caja-id:hover .caja-bottom-left-bottom {
+  font-size: larger;
+  font-weight: lighter;
+  transition: 0.5s;
+}
+
